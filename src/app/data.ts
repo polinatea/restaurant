@@ -93,3 +93,71 @@ export const products: Product[] = [
         ]
     },
 ]
+
+
+interface Menu  {
+        id: number;
+        cat: string;
+        title: string;
+        desc?: string;
+        img?: string;
+};
+
+export const menu:Menu[] = [
+    {
+        id: 1,
+        cat: "Starters",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 2,
+        cat: "Starters",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 3,
+        cat: "Main",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 4,
+        cat: "Main",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 5,
+        cat: "Drinks",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 6,
+        cat: "Drinks",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 7,
+        cat: "Desserts",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+    {
+        id: 8,
+        cat: "Desserts",
+        title: "Fruit salad",
+        desc: "Strawberry, banana, avocado",
+        img: "/fruit-salad.png",     
+    },
+]
