@@ -103,59 +103,60 @@ interface Menu  {
         img?: string;
 };
 
+
 export const menu:Menu[] = [
     {
         id: 1,
-        cat: "Starters",
+        cat: "starters",
         title: "Fruit salad",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 2,
-        cat: "Starters",
+        cat: "starters",
         title: "Fruit salad",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 3,
-        cat: "Main",
-        title: "Fruit salad",
+        cat: "main",
+        title: "soup",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 4,
-        cat: "Main",
-        title: "Fruit salad",
+        cat: "main",
+        title: "soup",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 5,
-        cat: "Drinks",
+        cat: "drinks",
         title: "Fruit salad",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 6,
-        cat: "Drinks",
+        cat: "drinks",
         title: "Fruit salad",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 7,
-        cat: "Desserts",
+        cat: "desserts",
         title: "Fruit salad",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
     },
     {
         id: 8,
-        cat: "Desserts",
+        cat: "desserts",
         title: "Fruit salad",
         desc: "Strawberry, banana, avocado",
         img: "/fruit-salad.png",     
