@@ -29,9 +29,11 @@ const MenuPage = () => {
       <div className=" flex flex-wrap border-t-2 border-l-2 border-yellow-400">
         {items.map(item=>(
         <div key={item.id}  className=' w-full h-[60vh] flex flex-col items-center justify-center  border-b-2 border-r-2 border-yellow-400  sm:w-1/2 md:w-1/3 xl:w-1/4'>
+          {item.img && (
           <div className='relative h-[60%] w-full pt-3'>
             <Image src={item.img} alt="" fill className='object-contain'/>
           </div>
+          )}
           <div className=' flex flex-col justify-center items-center text-yellow-500'>
             <h1 className='font-bold text-xl'>{item.title}</h1>
             <p className='h-14 text-center inline-block align-middle text-sm'>{item.desc}</p>
