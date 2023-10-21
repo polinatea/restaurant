@@ -26,9 +26,11 @@ const MenuPage = () => {
       filterMenu = {filterMenu}
       setItems = {setItems}
       />
-      <div className=" flex flex-wrap border-t-2 border-l-2 border-yellow-400">
+      <div className=" flex flex-wrap ">
         {items.map(item=>(
-        <div key={item.id}  className=' w-full h-[60vh] flex flex-col items-center justify-center  border-b-2 border-r-2 border-yellow-400  sm:w-1/2 md:w-1/3 xl:w-1/4'>
+        <div key={item.id}  className=' w-full h-[60vh]  sm:w-1/2 md:w-1/3 xl:w-1/4 p-2'>
+          <div className='w-full h-full flex flex-col items-center justify-center relative border-2 border-grey-50 rounded-md'>
+          <div className='font-bold text-xl absolute left-5 top-5 text-yellow-500'>${item.price}</div>
           {item.img && (
           <div className='relative h-[60%] w-full pt-3'>
             <Image src={item.img} alt="" fill className='object-contain'/>
@@ -37,7 +39,8 @@ const MenuPage = () => {
           <div className=' flex flex-col justify-center items-center text-yellow-500'>
             <h1 className='font-bold text-xl'>{item.title}</h1>
             <p className='h-14 text-center inline-block align-middle text-sm'>{item.desc}</p>
-            <span className='font-bold text-xl'>${item.price}</span>
+            
+          </div>
           </div>
         </div>
         ))}

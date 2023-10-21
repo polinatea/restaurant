@@ -6,7 +6,7 @@ const Slider = () => {
         {
             id:1,
             title: "always green and always veggie",
-            image: "/cafe.jpg",
+            image: "/cafe3.jpeg",
         },
         {
             id:2,
@@ -33,7 +33,7 @@ const Slider = () => {
             <button className=' bg-red-500 text-white py-4 px-8'>Order now</button>
         </div>
     <div className='w-full flex-1 relative '>
-       <Image src={data[currentSlide].image} alt='' fill className='object-cover'/>
+       <Image src={data[currentSlide].image} alt='' fill  className='object-cover'/>
     </div>
     </div>
   )
