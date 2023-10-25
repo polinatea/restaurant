@@ -20,7 +20,6 @@ const MenuPage = () => {
 
   return (
     <div className='p-4 flex flex-col gap-3 '>
-      <h1 className='text-center text-xl font-bold text-green-600 md:text-2xl lg:text-4xl'>Our menu</h1> 
       <CategoryButtons 
       uniqueCategories= {uniqueCategories}
       filterMenu = {filterMenu}

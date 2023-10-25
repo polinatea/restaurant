@@ -31,9 +31,9 @@ const Navbar = () => {
 
 
       <div className='hidden md:flex gap-4 items-center flex-1 justify-end lg:pr-3 xl:pr-20'>
-        <div className='flex items-center gap-2 cursor-pointer bg-red-500 rounded-lg p-1 md:static text-white'>
+        <div className='flex items-center gap-2 cursor-pointer bg-green-600 rounded-lg py-1 px-2 md:static text-white'>
           <Image src="/phone.png" alt="" width={20} height={20}/>
-          <span className='text-yellow-300'>+358 00 0000000</span>
+          <span className='text-white'>+358 00 0000000</span>
         </div>
       </div>
 

@@ -5,12 +5,12 @@ const Slider = () => {
     const data = [
         {
             id:1,
-            title: "always green and always veggie",
+            title: "be vegan make peace",
             image: "/cafe3.jpeg",
         },
         {
             id:2,
-            title: "always welcome",
+            title: "100% vegan meals",
             image: "/table.jpg",
         }
     ]
@@ -26,11 +26,10 @@ const Slider = () => {
 
   return (
     <div className='flex flex-col h-[calc(100vh-3rem)] lg:flex-row'>
-        <div className='flex-1 flex items-center justify-center flex-col gap-8 text-yellow-500 font-bold'>
+        <div className='flex-1 flex items-center justify-center flex-col gap-8 text-green-600 font-bold'>
             <h1 className='text-5xl text-center uppercase p-4 md:text-6xl xl:text-7xl'>
             {data[currentSlide].title}
             </h1>
-            <button className=' bg-red-500 text-white py-4 px-8'>Order now</button>
         </div>
     <div className='w-full flex-1 relative '>
        <Image src={data[currentSlide].image} alt='' fill  className='object-cover'/>
