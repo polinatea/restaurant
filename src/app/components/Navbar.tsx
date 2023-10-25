@@ -10,10 +10,10 @@ const Navbar = () => {
   return (
     <div className='h-12 md:h-24 text-yellow-500 p-4 flex items-center justify-between border-b-2 border-b-yellow-500 uppercase '>
 
-      <div className='hidden md:flex gap-4 flex-1 lg:pl-3 xl:pl-20'>
+      <div className='hidden md:flex gap-4 flex-1 lg:pl-3 xl:pl-20 text-lg lg:text-xl'>
         <Link href="/">Home</Link>
         <Link href="/menu">Menu</Link>
-        <Link href="/">About</Link>
+        <Link href="/about">About</Link>
       </div>
 
       <div className='text-lg md:font-bold flex-1 md:text-center lg:text-left'>
