@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AboutPage = () => {
   return (
-    <div className='p-4 flex flex-col md:flex-row h-fit sm:h-[calc(100vh-3rem)] gap-4 md:gap-0 mt:10 md:mt-0 text-sm md:text-base text-yellow-500 '>
+    <div className='p-4 flex flex-col md:flex-row h-[calc(100vh-3rem)] gap-4 md:gap-0 mt:10 md:mt-0 text-sm md:text-base text-yellow-500 '>
         <div className='flex-1 flex flex-col justify-center gap-2 text-justify lg:pl-3 xl:pl-20 '>
             <h2 className='text-center text-base md:text-lg font-bold'> About us:</h2>
       <p>Loving Hut - Light Light Industry (Taiwan) Limited was founded in October 2008, along the principle of creating innovative, 
