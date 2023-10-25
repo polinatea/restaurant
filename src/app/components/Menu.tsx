@@ -16,7 +16,7 @@ const Menu = () => {
   return (
     <div >
         {!open ? (
-            <Image src="/menu-button.png" alt="" width={20} height={20} onClick={()=>setOpen(true)}/>
+            <Image src="/menu.png" alt="" width={20} height={20} onClick={()=>setOpen(true)}/>
         ): (
         <Image src="/menu-button-close.png" alt="" width={20} height={20} onClick={()=>setOpen(false)}/>
         )}
