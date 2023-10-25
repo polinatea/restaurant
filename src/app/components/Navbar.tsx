@@ -16,8 +16,13 @@ const Navbar = () => {
         <Link href="/about">About</Link>
       </div>
 
-      <div className='text-lg md:font-bold flex-1 md:text-center lg:text-left'>
-        <Link href="/">Loving Hut</Link>
+      <div className=''>
+        <Link href="/" className='flex-1 flex flex-row items-center justify-center'>
+          <Image src="/logo.png" width={100} height={100} alt="" className='hidden md:inline-flex'/> 
+          <h1 className='text-lg md:font-bold  md:text-center lg:text-left '>
+            Loving Hut
+          </h1>
+        </Link>
       </div>
 
       <div className='md:hidden'>
@@ -25,10 +30,10 @@ const Navbar = () => {
       </div>
 
 
-      <div className='hidden md:flex md:flex-col lg:flex-row gap-4 items-center flex-1 justify-center'>
+      <div className='hidden md:flex gap-4 items-center flex-1 justify-end lg:pr-3 xl:pr-20'>
         <div className='flex items-center gap-2 cursor-pointer bg-red-500 rounded-lg p-1 md:static text-white'>
-          <Image src="/phone-icon.png" alt="" width={20} height={20}/>
-          <span>+358 00 0000000</span>
+          <Image src="/phone.png" alt="" width={20} height={20}/>
+          <span className='text-yellow-300'>+358 00 0000000</span>
         </div>
       </div>
 
