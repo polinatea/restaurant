@@ -11,7 +11,7 @@ const AboutPage = () => {
       <p>Our company and large production facility is owned and managed by vegans and every step of the way 
         is safeguarded to ensure maximum hygiene, optimum quality and minimal environmental impact. 
       We only manufacture vegan and NON-GMO food, and also have a wide range of GLUTEN FREE products. Tailor-made products are available under clients request.</p>
-       <p>Peace starts from our dining table, let's together make our planet great again.</p>
+       <p>Peace starts from our dining table, let&apos;s together make our planet great again.</p>
       </div>
         
 
